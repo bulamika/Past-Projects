@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%the first subfunction-b
-function face_rating_age
+%%%the first subfunction-a
+function face_rating_attract
 % psychtoolbox function to showcase two faces at a time and ask the
 % participants to rate how different the right face is comparing to the 
 % left one based on distinctiveness and attractiveness. 
@@ -34,17 +34,17 @@ screenNumber = max(screens);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Screen('TextFont', win, 'Arial');
 Screen('TextSize', win, 100);
-welcome = 'Study - continued';
+welcome = 'Welcome to the Study';
 DrawFormattedText(win, welcome,'center', Yo - 180, BLACK); 
 
 Screen('TextFont', win, 'Arial');
 Screen('TextSize', win, 30);
-instruction1 = 'Now compare two faces and rate how the face on the right is different';
+instruction1 = 'Please compare two faces and rate how the face on the right is different';
 DrawFormattedText(win, instruction1,'center', 'center', BLACK); 
 
 Screen('TextFont', win, 'Arial');
 Screen('TextSize', win, 40);
-instruction2 = 'based on Age';
+instruction2 = 'based on Attractiveness';
 DrawFormattedText(win, instruction2,'center', Yo + 75, BLACK); 
 
 Screen('TextFont', win, 'Arial');
@@ -64,7 +64,7 @@ DrawFormattedText(win, instruction5,'center', Yo + 180, BLACK);
 
 Screen('TextFont', win, 'Arial');
 Screen('TextSize', win, 50);
-start = 'Press enter to resume.';
+start = 'Press enter to start.';
 DrawFormattedText(win, start,'center', Yo + 400, BLACK); 
 
 Screen('Flip', win);
@@ -82,12 +82,12 @@ end
 % calculation question to make sure they pays attention in the experiment
 Screen('TextFont', win, 'Arial');
 Screen('TextSize', win, 50);
-start = 'Type the answer: Steven is 6-2 = ? years old';
+start = 'Type the answer: how attractive 7-4 = ?';
 DrawFormattedText(win, start,'center','center', BLACK); 
 
 Screen('Flip', win);
 
-correctKey = KbName('4$');
+correctKey = KbName('3#');
 %press the correct answer to start
 while true
 	[keyIsDown, secs, keyCode] = KbCheck();
@@ -152,7 +152,7 @@ end
 
 Screen('TextFont', win, 'Arial');
 Screen('TextSize', win, 50);
-thanks = 'Thank you for completing the study!';
+thanks = 'Good job!';
 DrawFormattedText(win, thanks,'center', 'center', BLACK); 
 Screen('Flip', win);
 
@@ -161,6 +161,6 @@ WaitSecs(5);
 Screen('CloseAll')
 
 %write the file 
-writematrix(data_matrix, 'age_matrix.txt') 
+writematrix(data_matrix, 'attract_matrix.txt') 
 
 end
