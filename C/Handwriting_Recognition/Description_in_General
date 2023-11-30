@@ -1,0 +1,9 @@
+All assignments in CSCB09 in 2021 will center around implementing solutions to image recognition problems, an important class of machine learning problems. 
+The specific problem that we will focus on in our assignments is handwriting recognition.
+More specifically, we developed programs that can read in images of hand-written digits and automaticallydetermine which digit the image shows.
+
+
+Generally speaking, the goal of the machine learning algorithm is to use a set of sample images that are already correctly labelled (called the training set) 
+and try to extract knowledge from it that it can use to later label new images (called the test set) that it has not yet seen. 
+In machine learning lingo, this is called a classification problem : we are trying toassign an input item (an image in our case) to one of ten classes 
+(corresponding to the digits 1 to 10)based on features of the input items (the pixels of each image make up its key features).
