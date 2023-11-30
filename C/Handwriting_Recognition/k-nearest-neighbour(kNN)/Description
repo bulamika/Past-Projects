@@ -1,0 +1,2 @@
+In kNN approach, we will use a simple machine learning technique for classification called k-nearest-neighbour(kNN).
+The basic idea is to label a new image by finding the k most similar images in the training set andassign the new image the label that is most common among those k similar images
