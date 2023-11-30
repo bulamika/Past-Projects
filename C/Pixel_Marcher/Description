@@ -1,8 +1,0 @@
-Given some images, the marcher's mission is to walk from the top-left corner to the bottom-right corner.
-Every step it takes costs some energy (which is determined by a weight function that is provided for the assignment). 
-The Pixel Marcher wants to find the path that takes up the least energy.
-The weight function that is provided is the key element that decides this least-energy path.
-
-Weight function (1) reflects how similar the pixel is to its neighbour, and weight function (2) reflects 
-how close the neighboring pixel is to white. Both of these weight functions are provided as part of the 
-starter code in the test marcher.c and driver.c files.
