@@ -1,0 +1,9 @@
+In comparison to the kNN approach, decision trees take some time to build (i.e. to "train") but are much faster at classifying input images. 
+In this case, the class provides input images in binary format instead of ASCII, and by using only two files, one that encodes all the training images and one that encodes all the test images. 
+This project uses more realistic data.
+
+The binary decision tree is a type of tree-structured data, it is used to classify input items (images in our case) based on their features (pixel values in our case) into classes (the digits 0-9 in our case).
+Each internal node of the tree represents one feature (pixel) and based on the input item's value of that feature routes the input item either to its right or to its left child. A leaf node represents a classification,
+i.e. it stands for one particular class/label (one of the 10 digits in our case). 
+
+To classify an input item using a decision tree we start at the root and follow the corresponding branches, based on the item's features. Once we reach a leaf node we output the class associated with that leaf node.
