@@ -32,16 +32,16 @@ library(corrplot)
 #library("MASS")
 ```
 
- Mingjia Chen (1004743762): Evaluate influential and outlying observations, Abstract, Conclusion, and formatting final report and slides 
+ Mingjia Chen: Evaluate influential and outlying observations, Abstract, Conclusion, and formatting final report and slides 
  
  
- Kuei-Sheng Hou (1004882941): Data Cleaning, checked Multicollinearity before model selection, conduct model selection, and tailored the final report.
+ Kuei-Sheng Hou: Data Cleaning, checked Multicollinearity before model selection, conduct model selection, and tailored the final report.
  
  
- Raymond Moy (1007041069): Examining correlations in data, checking LINE assumptions, model diagnostics and remedial measures.
+ Raymond Moy: Examining correlations in data, checking LINE assumptions, model diagnostics and remedial measures.
  
  
- Ruichen Rachel Zhou (1006724813): Data cleaning and summarizing into tables, creating histograms, checking data validation
+ Ruichen Rachel Zhou: Data cleaning and summarizing into tables, creating histograms, checking data validation
 
 
 \begin{center} 
